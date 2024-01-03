@@ -1,4 +1,4 @@
-# CreditUI
+# credit-frontend
 
 ## Run on localhost
 
@@ -32,7 +32,7 @@ Add/connect the localhost network on Metamask and import the private key of the 
 Dev branch is recommended to test the latest features.
 
 ```bash
-git clone https://github.com/3six9-Financial/3xcaliCredit
+git clone https://github.com/0xnogo/credit-contracts
 git checkout dev
 ```
 
@@ -41,7 +41,7 @@ git checkout dev
 #### Install dependencies
 
 ```bash
-cd 3xcaliCredit-contracts && yarn install && yarn build
+cd credit-contracts && yarn install && yarn build
 ```
 
 #### Deploy the contracts
@@ -52,7 +52,7 @@ rm -rf deployments/localhost && yarn hardhat getUSDC --network localhost --user-
 
 Get the contracts address from the console output.
 
-> For more convenient commands, check the notion doc: <https://www.notion.so/3six9/Setup-the-localhost-test-env-65849834bee64b6a84e8de9cadec3269?pvs=4>
+> For more convenient commands, check the notion doc: <https://www.notion.so/nogo/Setup-the-localhost-test-env-65849834bee64b6a84e8de9cadec3269?pvs=4>
 
 #### Modify CreditUI config
 
@@ -77,7 +77,7 @@ docker-compose down -v && sudo rm -rf data/ && docker-compose up
 #### Initializing new subgraph
 
 ```bash
-git clone https://github.com/3six9-Financial/credit-subgraph
+git clone https://github.com/0xnogo/credit-subgraph
 ```
 
 Modify the config:
@@ -95,3 +95,10 @@ yarn deploy-local
 ```
 
 > Note: If the subgraph is throwing errors, you might notice `indexing-error` when querying the subgraph. One solution is to add `subgraphError: allow` in your graphql query. The other solution is to remove the data from the subgraph and restart the graph node (and potentially fix the issue in the mappings code).
+
+### Frontend
+
+```bash
+yarn
+yarn run dev
+```
