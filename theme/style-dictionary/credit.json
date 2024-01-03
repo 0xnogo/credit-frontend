@@ -1,0 +1,347 @@
+{
+  "credit": {
+    "color": {
+      "background": {
+        "primary": {
+          "value": "#0F0F0F",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "#161616",
+          "type": "color"
+        },
+        "quarternary": {
+          "value": "#2B2D2F",
+          "type": "color"
+        },
+        "white": {
+          "value": "#F2F2F2",
+          "type": "color"
+        },
+        "black": {
+          "value": "#000000",
+          "type": "color"
+        }
+      },
+      "border": {
+        "primary": {
+          "value": "#161718",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "#2B2D2F",
+          "type": "color"
+        },
+        "quarternary": {
+          "value": "#8D8D8D",
+          "type": "color"
+        },
+        "white": {
+          "value": "#F2F2F2",
+          "type": "color"
+        }
+      },
+      "fill": {
+        "brand": {
+          "tinted": {
+            "yellow": {
+              "value": "#383121",
+              "type": "color"
+            },
+            "pink": {
+              "value": "#36252F",
+              "type": "color"
+            },
+            "green": {
+              "value": "#103B29",
+              "type": "color"
+            },
+            "blue": {
+              "value": "#253A3A",
+              "type": "color"
+            }
+          },
+          "solid": {
+            "yellow": {
+              "value": "#FFBD13",
+              "type": "color"
+            },
+            "pink": {
+              "value": "#FFBDE7",
+              "type": "color"
+            },
+            "green": {
+              "value": "#16E08B",
+              "type": "color"
+            },
+            "blue": {
+              "value": "#98FFFF",
+              "type": "color"
+            }
+          }
+        },
+        "action": {
+          "active": {
+            "value": "#F2F2F2",
+            "type": "color"
+          },
+          "inactive": {
+            "value": "#8D8D8D",
+            "type": "color"
+          }
+        }
+      },
+      "typography": {
+        "white": {
+          "value": "#F2F2F2",
+          "type": "color"
+        },
+        "muted": {
+          "value": "#8D8D8D",
+          "type": "color"
+        },
+        "increase": {
+          "value": "#16E08B",
+          "type": "color"
+        },
+        "decrease": {
+          "value": "#FF7E7E",
+          "type": "color"
+        },
+        "": {
+          "value": "rgba(255, 189, 19, 0.6)",
+          "type": "color"
+        },
+        "pink-faded": {
+          "value": "rgba(247, 203, 231, 0.6)",
+          "type": "color"
+        },
+        "green-faded": {
+          "value": "rgba(22, 224, 139, 0.6)",
+          "type": "color"
+        }
+      }
+    },
+    "typography": {
+      "title": {
+        "extra_large": {
+          "value": {
+            "fontFamily": "Neue Machina",
+            "fontWeight": "Ultrabold",
+            "lineHeight": "150%",
+            "fontSize": "48",
+            "textCase": "UPPERCASE"
+          },
+          "type": "typography"
+        },
+        "large": {
+          "bold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "lineHeight": "150%",
+              "fontSize": "32"
+            },
+            "type": "typography"
+          },
+          "semibold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": "600",
+              "lineHeight": "150%",
+              "fontSize": "32"
+            },
+            "type": "typography"
+          }
+        },
+        "moderate": {
+          "bold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "lineHeight": "150%",
+              "fontSize": "24"
+            },
+            "type": "typography"
+          },
+          "semibold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": "600",
+              "lineHeight": "150%",
+              "fontSize": "24"
+            },
+            "type": "typography"
+          },
+          "numeric": {
+            "value": {
+              "fontFamily": "Retron2000",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": "24"
+            },
+            "type": "typography"
+          }
+        },
+        "small": {
+          "bold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "lineHeight": "150%",
+              "fontSize": "18"
+            },
+            "type": "typography"
+          },
+          "Semibold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": "600",
+              "lineHeight": "150%",
+              "fontSize": "18"
+            },
+            "type": "typography"
+          },
+          "numeric": {
+            "value": {
+              "fontFamily": "Retron2000",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": "18"
+            },
+            "type": "typography"
+          }
+        }
+      },
+      "body": {
+        "large": {
+          "medium": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": "Medium",
+              "lineHeight": "150%",
+              "fontSize": "16"
+            },
+            "type": "typography"
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": "16"
+            },
+            "type": "typography"
+          },
+          "numeric": {
+            "value": {
+              "fontFamily": "Retron2000",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": "16"
+            },
+            "type": "typography"
+          }
+        },
+        "moderate": {
+          "medium": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontSize": "14",
+              "fontWeight": "Medium",
+              "lineHeight": "150%"
+            },
+            "type": "typography"
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": "14"
+            },
+            "type": "typography"
+          },
+          "numeric": {
+            "value": {
+              "fontFamily": "Retron2000",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": "14"
+            },
+            "type": "typography"
+          }
+        },
+        "small": {
+          "medium": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontSize": "12",
+              "fontWeight": "Medium",
+              "lineHeight": "150%"
+            },
+            "type": "typography"
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": "12"
+            },
+            "type": "typography"
+          },
+          "numeric": {
+            "value": {
+              "fontFamily": "Retron2000",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": "12"
+            },
+            "type": "typography"
+          }
+        },
+        "tiny": {
+          "medium": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": "Medium",
+              "lineHeight": "150%",
+              "fontSize": "11"
+            },
+            "type": "typography"
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "lineHeight": "150%",
+              "fontSize": "11"
+            },
+            "type": "typography"
+          }
+        }
+      }
+    },
+    "borderRadius": {
+      "card": {
+        "small": {
+          "value": "8",
+          "type": "borderRadius"
+        },
+        "moderate": {
+          "value": "12",
+          "type": "borderRadius"
+        },
+        "curved": {
+          "value": "24",
+          "type": "borderRadius"
+        },
+        "pills": {
+          "value": "999",
+          "type": "borderRadius"
+        }
+      }
+    }
+  }
+}

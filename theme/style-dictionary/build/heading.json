@@ -1,0 +1,51 @@
+{
+  "title-extra-large": {
+    "fontFamily": "PPNeueMachina",
+    "fontWeight": 800,
+    "lineHeight": "100%",
+    "fontSize": "48px",
+    "textTransform": "uppercase"
+  },
+  "title-large-bold": {
+    "fontWeight": 700,
+    "lineHeight": "150%",
+    "fontSize": "32px"
+  },
+  "title-large-semibold": {
+    "fontWeight": 600,
+    "lineHeight": "120%",
+    "fontSize": "32px"
+  },
+  "title-moderate-bold": {
+    "fontWeight": 700,
+    "lineHeight": "150%",
+    "fontSize": "24px"
+  },
+  "title-moderate-semibold": {
+    "fontWeight": 600,
+    "lineHeight": "150%",
+    "fontSize": "24px"
+  },
+  "title-moderate-numeric": {
+    "fontFamily": "Retron2000",
+    "fontWeight": 500,
+    "lineHeight": "150%",
+    "fontSize": "24px"
+  },
+  "title-small-bold": {
+    "fontWeight": 700,
+    "lineHeight": "150%",
+    "fontSize": "18px"
+  },
+  "title-small-semibold": {
+    "fontWeight": 500,
+    "lineHeight": "150%",
+    "fontSize": "18px"
+  },
+  "title-small-numeric": {
+    "fontFamily": "Retron2000",
+    "fontWeight": 500,
+    "lineHeight": "150%",
+    "fontSize": "18px"
+  }
+}

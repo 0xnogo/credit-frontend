@@ -1,0 +1,236 @@
+
+:root {
+  /* --account-center-position-top:-100px; */
+  background-color: black;
+}
+
+html{
+  background-color: black;
+}
+
+body {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+:root {
+  /* CUSTOMIZE THE COLOR  PALETTE */
+  --onboard-white: white;
+  --onboard-black: black;
+  --onboard-primary-1: #2f80ed;
+  --onboard-primary-100: #eff1fc;
+  --onboard-primary-200: #d0d4f7;
+  --onboard-primary-300: #b1b8f2;
+  --onboard-primary-400: #929bed;
+  --onboard-primary-500: #6370e5;
+  --onboard-primary-600: #454ea0;
+  --onboard-primary-700: #323873;
+  --onboard-gray-100: #ebebed;
+  --onboard-gray-200: #c2c4c9;
+  --onboard-gray-300: #999ca5;
+  --onboard-gray-400: #707481;
+  --onboard-gray-500: #33394b;
+  --onboard-gray-600: #242835;
+  --onboard-gray-700: #1a1d26;
+  --onboard-success-100: #d1fae3;
+  --onboard-success-200: #baf7d5;
+  --onboard-success-300: #a4f4c6;
+  --onboard-success-400: #8df2b8;
+  --onboard-success-500: #5aec99;
+  --onboard-success-600: #18ce66;
+  --onboard-success-700: #129b4d;
+  --onboard-danger-100: #ffe5e6;
+  --onboard-danger-200: #ffcccc;
+  --onboard-danger-300: #ffb3b3;
+  --onboard-danger-400: #ff8080;
+  --onboard-danger-500: #ff4f4f;
+  --onboard-danger-600: #cc0000;
+  --onboard-danger-700: #660000;
+  --onboard-warning-100: #ffe4e4;
+  --onboard-warning-200: #ff8383;
+  --onboard-warning-300: #ff759a;
+  --onboard-warning-400: #ff0606;
+  --onboard-warning-500: #410000;
+  --onboard-warning-600: #410000;
+  --onboard-warning-700: #410000;
+
+  /* --account-center-minimized-background */
+  /* --account-center-maximized-upper-background:red; */
+   /* --account-center-maximized-network-section */
+  /*--account-center-maximized-app-info-section
+  --account-center-minimized-address-color
+  --account-center-maximized-address-color
+  --account-center-maximized-account-section-background-hover
+  --account-center-maximized-action-background-hover
+  --account-center-minimized-chain-select-background
+  --account-center-network-selector-color
+  --account-center-maximized-network-selector-color
+  --account-center-minimized-network-selector-color
+  --account-center-app-btn-text-color
+  --account-center-app-btn-background
+  --account-center-app-btn-font-family
+  --account-center-box-shadow
+  --account-center-border-radius
+  --account-center-chain-warning
+  --account-center-minimized-balance-color
+  --account-center-minimized-chain-select-background
+  --account-center-maximized-network-section-background
+  --account-center-maximized-network-text-color
+  --account-center-maximized-info-section-background-color
+  --account-center-maximized-upper-action-color
+  --account-center-maximized-upper-action-background-hover
+  --account-center-maximized-app-name-color
+  --account-center-maximized-app-info-color
+  --account-center-micro-background */
+
+  /* --onboard-connect-content-width
+  --onboard-connect-content-height
+  --onboard-wallet-columns
+  --onboard-connect-sidebar-color
+  --onboard-connect-sidebar-progress-background
+  --onboard-connect-sidebar-progress-color
+  --onboard-connect-header-background
+  --onboard-connect-header-color
+  --onboard-main-scroll-container-background
+  --onboard-close-button-background
+  --onboard-close-button-color
+  --onboard-checkbox-background
+  --onboard-checkbox-color
+  --onboard-wallet-button-color
+  --onboard-wallet-button-border-color
+  --onboard-wallet-button-box-shadow
+  --onboard-wallet-app-icon-border-color */
+
+  /* --onboard-modal-background
+  --onboard-modal-color */
+
+  /* CUSTOMIZE THE CONNECT MODAL */
+  /* --onboard-modal-border-radius
+  --onboard-modal-backdrop
+  --onboard-modal-box-shadow */
+
+  /* CUSTOMIZE THE ACTION REQUIRED MODAL */
+  /* --onboard-action-required-modal-background */
+
+  /* FONTS */
+   --onboard-main-scroll-container-background:#0F0F0F;
+  --onboard-connect-sidebar-background:#0F0F0F;
+  --account-center-border:thin transparent solid;
+  --onboard-wallet-button-border-radius:10px;
+  --onboard-wallet-button-background:#161718;
+  --onboard-wallet-button-background-hover:#161718;
+  --onboard-wallet-button-border-color:transparent;
+  --onboard-wallet-app-icon-border-color:transparent;
+  /* --onboard-link-color:#98FFFF; */
+  --onboard-connect-sidebar-progress-color:#98FFFF;
+  --onboard-connect-header-color:white;
+  --onboard-close-button-background:none;
+  --w3o-border-color:transparent;
+
+
+  --onboard-font-size-1: 3rem;
+  --onboard-font-size-2: 2.25rem;
+  --onboard-font-size-3: 1.5rem;
+  --onboard-font-size-4: 1.25rem;
+  --onboard-font-size-5: 1rem;
+  --onboard-font-size-6: 0.875rem;
+  --onboard-font-size-7: 0.75rem;
+
+  /* HARDWARE WALLET STYLES  */
+  /* *if not set will fallback to variables with `--onboard` prefix shown above */
+
+  /* COLORS */
+  --account-select-modal-white: white;
+  --account-select-modal-black: black;
+  --account-select-modal-primary-100: #eff1fc;
+  --account-select-modal-primary-200: #d0d4f7;
+  --account-select-modal-primary-300: #b1b8f2;
+  --account-select-modal-primary-500: #6370e5;
+  --account-select-modal-primary-600: #454ea0;
+  --account-select-modal-gray-100: #ebebed;
+  --account-select-modal-gray-200: #c2c4c9;
+  --account-select-modal-gray-300: #999ca5;
+  --account-select-modal-gray-500: #33394b;
+  --account-select-modal-gray-700: #1a1d26;
+  --account-select-modal-danger-500: #ff4f4f;
+
+  /* FONTS */
+  --account-select-modal-font-size-5: 1rem;
+  --account-select-modal-font-size-7: .75rem;
+  --account-select-modal-font-line-height-1: 24px;
+
+
+  /* CUSTOMIZE ACCOUNT CENTER*/
+  --account-center-z-index:2;
+  
+  /* MAIN MODAL POSITIONING */
+  --onboard-modal-z-index:2;
+  
+  /* HD WALLET ACCOUNT SELECT MODAL POSITIONING */
+  --onboard-account-select-modal-z-index:2;
+  
+
+  /* MAGIC WALLET MODAL POSITIONING */
+  --onboard-login-modal-z-index:2;
+  
+  --notify-onboard-z-index:2;
+
+  --account-center-app-btn-background:#0F0F0F;
+  --account-center-minimized-chain-select-background:#0F0F0F;
+  --account-center-maximized-network-section-background:#0F0F0F;
+  --account-center-minimized-background :#0F0F0F;
+  --account-center-maximized-upper-background:#0F0F0F;
+  --w3o-background-color:#0F0F0F;
+  --w3o-foreground-color: #0F0F0F;
+  --w3o-text-color:white;
+  --w3o-border-color:transparent;
+  
+  --notify-onboard-background: #0F0F0F;
+
+  --account-center-position-right:-100vw;
+  /* --notify-onboard-close-icon-color
+  --notify-onboard-close-icon-hover
+  --notify-onboard-transaction-status-color
+  --notify-onboard-transaction-font-size
+  --notify-onboard-hash-time-font-size
+  --notify-onboard-hash-time-font-line-height
+  --notify-onboard-address-hash-color
+  --notify-onboard-anchor-color */
+}
+
+.MuiPopover-root{
+  border-radius: 2px;
+}
+
+.MuiPopover-paper{
+  border-radius: 12px;
+}
+
+.MuiTooltip-popper{
+  border-radius: 2px;
+
+}
+
+.MuiTooltip-tooltip{
+  border-radius: 2px;
+  background-color: #0F0F0F;
+}
+
+* {
+  scrollbar-color: #2B2D2F transparent;
+  scrollbar-width: 10px;
+}
+
+*::-webkit-scrollbar {
+  background: transparent;
+  width:10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #2B2D2F;
+  border-radius: 5px;
+  width:10px;
+}

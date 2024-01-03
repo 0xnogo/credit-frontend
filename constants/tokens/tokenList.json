@@ -1,0 +1,23 @@
+[
+  {
+    "symbol": "XCAL",
+    "address": "0xd2568acCD10A4C98e87c44E9920360031ad89fCB",
+    "decimals": 18,
+    "name": "3xcalibur",
+    "chainId": 31337
+  },
+  {
+    "symbol": "CREDIT",
+    "address": "0xa0e9DDE8fa9AeEa39f459F66831b35A0620f3D99",
+    "decimals": 18,
+    "name": "CREDIT Token",
+    "chainId": 31337
+  },
+  {
+    "symbol": "WETH",
+    "address": "0xEe01c0CD76354C383B8c7B4e65EA88D00B06f36f",
+    "decimals": 18,
+    "name": "Wrapped Ether",
+    "chainId": 31337
+  }
+]

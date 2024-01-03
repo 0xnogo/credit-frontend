@@ -1,0 +1,43 @@
+{
+  "brand": {
+    "accent": {
+      "normal": "#98FFFF",
+      "dark": "#253A3A",
+      "dark-hover": "#142F2F"
+    },
+    "yellow": {
+      "normal": "#FFBD13",
+      "dark": "#383121",
+      "dark-hover": "#322813"
+    },
+    "pink": {
+      "normal": "#FFBDE7",
+      "dark": "#36252F",
+      "dark-hover": "#3E2533"
+    },
+    "green": "#16E08B"
+  },
+  "action": {
+    "active": "#F2F2F2",
+    "inactive": "#8D8D8D"
+  },
+  "typography": {
+    "white": "#F2F2F2",
+    "muted": "#8D8D8D",
+    "increase": "#16E08B",
+    "decrease": "#FF7E7E",
+    "": "rgba(255, 189, 19, 0.6)",
+    "pink-faded": "rgba(247, 203, 231, 0.6)",
+    "green-faded": "rgba(22, 224, 139, 0.6)"
+  },
+  "neutrals": {
+    "100": "#000000",
+    "80": "#0F0F0F",
+    "60": "#161718",
+    "40": "#2B2D2F",
+    "20": "#3D3D3D",
+    "15": "#8D8D8D",
+    "10": "#D4D4D4",
+    "white": "#F4F4F4"
+  }
+}
